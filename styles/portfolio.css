@@ -121,6 +121,9 @@ info-description{
     font-size: 35px;
     font-weight: 700;
 }
+main>section{
+    margin-top: 130px;
+}
 
 .section-description {
     color: #757575;
@@ -140,24 +143,42 @@ main {
 }
 .skill-container{
     display: flex;
+    gap: 24px;
     justify-content: space-around;
     align-items: center;
 }
 .skill-box{
-    background-color: #f7f6f5;
-    margin: 10px;
-    box-shadow: 5px 5px 7px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skill-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
 }
 .skill-title{
     text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
 }
 .skill-description{
     text-align: justify;
-    padding: 20px;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+}
+
+/* resume section */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+}
+hr{
+    size: 40%;
 }
